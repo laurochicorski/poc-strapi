@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/videos",
-      "handler": "videos.find",
+      "path": "/estados",
+      "handler": "estado.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/videos/count",
-      "handler": "videos.count",
+      "path": "/estados/count",
+      "handler": "estado.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/videos/:id",
-      "handler": "videos.findOne",
+      "path": "/estados/:id",
+      "handler": "estado.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/videos",
-      "handler": "videos.create",
+      "path": "/estados",
+      "handler": "estado.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/videos/:id",
-      "handler": "videos.update",
+      "path": "/estados/:id",
+      "handler": "estado.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/videos/:id",
-      "handler": "videos.delete",
+      "path": "/estados/:id",
+      "handler": "estado.delete",
       "config": {
         "policies": []
       }
